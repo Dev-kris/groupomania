@@ -8,7 +8,7 @@ This app will mimic either Reddit or 9gag.
 The app will allow users to share pictures, gifs, commentary, and their reactions. 
 
 
-It will be developed using:
+### It will be developed using: ###
 MySql
 Express
 React
