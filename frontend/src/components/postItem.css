@@ -13,7 +13,7 @@
 }
 
 .post__left i {
-  font-size: large;
+  font-size: 25px;
   color: #898ea2;
 }
 
@@ -23,6 +23,8 @@
 
 .post__center img {
   height: 60px;
+  width: 80px;
+  object-fit: cover;
   border-radius: 5px;
 }
 
@@ -48,4 +50,23 @@
 }
 p.post__info {
   margin-top: 4px;
+}
+
+.vote {
+  background-color: transparent;
+  border: 0;
+}
+.vote :hover {
+  color: red;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+button:active {
+  outline: none;
+  border: none;
+}
+
+button:focus {
+  outline: none;
 }
