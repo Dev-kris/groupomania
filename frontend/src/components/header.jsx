@@ -26,9 +26,10 @@ export default function Header() {
         </ul>
       </div>
       <div className="header__right">
-        <img src="" alt="User Avatar" />
+        <i className="fas fa-bell"></i>
+        <img src="https://avatars.githubusercontent.com/u/61651282?v=4" />
         <div className="header__user">
-          <span>UserName</span>
+          <span>Kris</span> <i className="fas fa-caret-down"></i>
         </div>
       </div>
     </div>
