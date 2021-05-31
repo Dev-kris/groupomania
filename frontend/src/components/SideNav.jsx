@@ -1,4 +1,5 @@
 import React from 'react';
+import './SideNav';
 
 export default function SideNav() {
   const menus = [
@@ -11,14 +12,14 @@ export default function SideNav() {
     'Cats',
     'Movies',
     'Watercooler chat',
-    'Art',
+    'Arts',
     'Hobbies',
   ];
 
   return (
     <div className="sidenav">
       <div className="sidenav__logo">
-        <img src="" alt="" />
+        <img src="/logos/icon-left-font.png" />
       </div>
       <div className="sidenav__search">
         <input type="text" name="search" placeholder="search..." />
