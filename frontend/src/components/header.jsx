@@ -27,7 +27,10 @@ export default function Header() {
       </div>
       <div className="header__right">
         <i className="fas fa-bell"></i>
-        <img src="https://avatars.githubusercontent.com/u/61651282?v=4" />
+        <img
+          src="https://avatars.githubusercontent.com/u/61651282?v=4"
+          alt="User Avatar"
+        />
         <div className="header__user">
           <span>Kris</span> <i className="fas fa-caret-down"></i>
         </div>
