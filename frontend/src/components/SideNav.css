@@ -27,7 +27,10 @@
   position: relative;
   outline-width: 0;
 }
-
+.sidenav__search i {
+  right: 25px;
+  position: relative;
+}
 .sidenav a {
   text-decoration: none;
   color: #808080;

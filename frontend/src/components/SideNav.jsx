@@ -26,7 +26,7 @@ export default function SideNav() {
         />
       </div>
       <div className="sidenav__search">
-        <input type="text" name="search" placeholder="search..." />
+        <input type="text" name="search" placeholder="search..."></input>
       </div>
       <div className="sidenav__links">
         <ul className="sidenav__menu">
