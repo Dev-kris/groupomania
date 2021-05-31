@@ -19,7 +19,7 @@ export default function SideNav() {
   return (
     <div className="sidenav">
       <div className="sidenav__logo">
-        <img src="/logos/icon-left-font.png" />
+        <img src="../images/icon.jpeg" />
       </div>
       <div className="sidenav__search">
         <input type="text" name="search" placeholder="search..." />
