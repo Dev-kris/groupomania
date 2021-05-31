@@ -1,5 +1,5 @@
 import React from 'react';
-import './SideNav';
+import './SideNav.css';
 
 export default function SideNav() {
   const menus = [
@@ -10,6 +10,7 @@ export default function SideNav() {
   const subreddits = [
     'Funny',
     'Cats',
+    'Dogs',
     'Movies',
     'Watercooler chat',
     'Arts',
@@ -19,7 +20,10 @@ export default function SideNav() {
   return (
     <div className="sidenav">
       <div className="sidenav__logo">
-        <img src="../images/icon.jpeg" />
+        <img
+          src="https://github.com/Dev-kris/groupomania/blob/master/frontend/src/images/icon.png?raw=true"
+          alt="Groupomania Company Logo"
+        />
       </div>
       <div className="sidenav__search">
         <input type="text" name="search" placeholder="search..." />
